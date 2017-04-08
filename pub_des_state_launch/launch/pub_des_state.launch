@@ -1,0 +1,6 @@
+<launch> 
+<node name= "open_loop_controller" pkg= "mobot_pub_des_state" type= "open_loop_controller" /> 
+<node name= "pub_des_state_path_client" pkg= "mobot_pub_des_state" type= "pub_des_state_path_client" /> 
+<node name= "mobot_pub_des_state" pkg= "mobot_pub_des_state" type= "mobot_pub_des_state" />
+<node name= "my_lidar_alarm" pkg= "my_lidar_alarm" type= "my_lidar_alarm" />
+</launch> 
