@@ -1,6 +1,0 @@
-<launch> 
-<node name= "lin_steering_wrt_odom" pkg= "lin_steering" type= "lin_steering_wrt_odom" /> 
-<node name= "pub_des_state_path_client" pkg= "mobot_pub_des_state" type= "pub_des_state_path_client" /> 
-<node name= "mobot_pub_des_state" pkg= "mobot_pub_des_state" type= "mobot_pub_des_state" />
-<node name= "my_lidar_alarm" pkg= "my_lidar_alarm" type= "my_lidar_alarm" />
-</launch> 
